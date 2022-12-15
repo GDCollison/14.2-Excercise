@@ -1,0 +1,14 @@
+ES5 Code:
+    var PI = 3.14;
+ES2015 Code that stops reassignment:
+    const PI = 3.14
+
+Quiz:
+1. What is the difference between var and let?
+    // Both will let ou reassign a variable, but only var will allow redeclaration; Let has a more rigid/defined scope called block scope.
+2. What is the difference between var and const?
+    // They don't have much in common. Const can neither be redeclared nor reassigned. Var can. Like let, const uses block scoping.
+3. What is the difference between let and const?
+    // Though niether can be redclared, let can be reassigned while const cannot.
+4. What is hoisting?
+    When a browser reads your code, it reads all variables first, before it does to them what you've coded.
